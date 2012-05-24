@@ -2,10 +2,10 @@
 require File.expand_path('../lib/diablo3/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Nick Greenfield", "Evan Farrar"]
+  gem.email         = ["greenie0506@gmail.com", "evanfarrar@gmail.com"]
+  gem.description   = %q{Diablo3 Ruby Gem}
+  gem.summary       = %q{Allows you to see the account profile information from the diablo3 API}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

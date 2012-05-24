@@ -4,5 +4,6 @@ source 'https://rubygems.org'
 gemspec
 gem "json"
 group :test, :development do
+  gem "rake"
   gem 'rspec'
 end

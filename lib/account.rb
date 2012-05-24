@@ -1,7 +1,8 @@
 require 'json'
+
 class Account
-  attr :name
+  attr_accessor :name
   def initialize(json)
-    self.name = JSON.parse(json)["name"]
+    self.name = JSON.parse(json)["account"]
   end
 end
